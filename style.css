@@ -199,7 +199,8 @@ table, td {/* table css*/
     .fotter{
         font-size:15px; 
         padding:3px 100px; 
-           
-
+    }
+    .content h1,span{
+        font-size:25px; 
     }
 } 
