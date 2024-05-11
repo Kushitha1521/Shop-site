@@ -1,1 +1,1 @@
-#This web site create for the restaurent.I create that using HTML,CSS and Javascript.
+#This web site create for the restaurent for demo project.I create that using HTML,CSS and Javascript.
