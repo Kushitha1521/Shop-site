@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <title>COFFEE SHOP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type = "text/javascript" src="functions.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class ="top">COFFEE SHOP</h1><!-- shop name hedder-->
+
+        <h2 class ="navigation"> <a href="#about">ABOUT &ensp;</a>| <!-- navigation bar-->
+                                 <a href="#products">PRODUCTS &ensp;</a> |
+                                 <a href="#menu">MENU &ensp;</a>|  
+                                 <a href="#prising">PRICING &ensp;</a> 
+        </h2>
+        <img src="image/coffe3.jpg" class="responsive" ><!-- main image-->
+       
+        <div class="content">
+            <h1 class="con1">FEEL YOUR LIFE <span><br>COFFEE SHOP</span></h1><!-- sentence on the main image -->
+            <a href="#products">ORDER NOW</a>
+        </div>
+        <br>
+
+        <h1 class="subtopic"  ID="about">ABOUT COFFEE SHOP</h1><!-- about thr shop-->
+        <hr style="width:40%;">
+
+        <p class="aboutDiscription" >The most famous coffee shop in Sri Lanka is known for its rich heritage, exquisite blends, and cozy ambiance. Locals and tourists flock to savor its aromatic brews, from classic Ceylon coffee to innovative specialties. With a menu of delectable pastries and warm hospitality, it's a haven for coffee aficionados.</p>
+        <div class="logo1"><img src="image/logo.png" class="logo" ></div>
+        <br>
+
+        <h1 id="products" class="subtopic" >OUR PRODUCTS</h1><!-- product section-->
+        <hr style="width:40%;">
+
+
+        <div class="row">
+			<div class="column" ><!-- breckfast section-->
+				<h2>BREAKFAST</h2><br>
+				<a href="#breakfast"><img src="image/breakfast.png" alt="HTML5 Icon"  ><br></a>
+				
+			</div>
+			<div class="column" >
+				<h2>LUNCH</h2><!-- lunch section-->
+				<a href="#lunch"><img src="image/lunch.png" alt="HTML5 Icon"  ></a>
+			</div>
+			<div class="column" >
+				<h2>DINNER</h2><!-- dinner section-->
+				<a href="#dinner"><img src="image/dinner.png" alt="HTML5 Icon" ></a>
+			</div>
+			<div class="column" >
+				<h2>BEVERAGES</h2><!-- beverages section-->
+				<a href="#beverages"><img src="image/beverages.png" alt="HTML5 Icon"  ></a>
+			</div>
+		</div>
+
+        <h1 class="subtopic" ID="menu" >MENU</h1><!-- menu of the shop-->
+        <hr style="width:40%;">
+                              
+                <!-- breakfast menu-->
+        <br>
+        <h2 class="subtopic1" ID="breakfast" onclick="openNav1()">BREAKFAST</h2>
+        <hr>
+        <h3 class="subtopic11" ID="menu1" >
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+            <b>
+            <Ol>
+                <li>TRADITIONAL SRI LANKAN BREAKFAST</li>
+                <ul>
+                    <li>String hoppers</li>
+                    <li>Plain hoppers</li>
+                    <li>Milk rice</li>
+                    <li>Fish, chicken or vegetable curry</li>
+                    <li>Coconut sambol</li>
+                    <li>Dhal curry</li>
+                    <li>Sini sambol </li>
+                </ul>
+                <li>EGGS CHOICE</li>
+                <ul>
+                    <li>Poached Eggs</li>
+                    <li>Country Breakfast</li>
+                    <li>Sri Lankan Omelette</li>
+                    <li>Madam’s Breakfast</li>
+                   
+                </ul>
+                <li>SWEET CHOICE</li>
+                <ul>
+                    <li>Granola & Seasonal Fruit</li>
+                    <li>Coconut Oat Porridge</li>
+                    <li>Lime pancakes</li>
+                   
+                </ul></b>
+            </Ol>
+            </h3>
+
+                <!-- lunch menu-->
+        <h2 class="subtopic1" ID="lunch" onclick="openNav2()">LUNCH</h2> 
+        <hr><b>
+            <h3 class="subtopic11" ID="menu2">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+            <Ol>
+                <li>FROM THE BUFFET </li>
+                <ul>
+                    <li>Vegetable</li>
+                    <li>Egg</li>
+                    <li>Fish</li>
+                    <li>Chicken</li>
+                    <li>Mutton</li>
+                    <li>Dhal curry</li>
+                    <li>Prawn </li>
+                </ul>
+                <li>SET MENU</li>
+                <ul>
+                    <li>Steamed rice</li>
+                    <li>Express Lunch </li>
+                    <li>Lamprais</li>
+                    <li>Yellow rice set menu</li>
+                   
+                </ul>
+                </b>
+            </Ol>
+            </h3>
+
+                     <!-- DINNER menu-->
+            <h2 class="subtopic1" ID="dinner" onclick="openNav3()">DINNER</h2>
+            <b>
+            <h3 class="subtopic11"ID="menu3">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+            <Ol>
+                <li>DINNER SET MENU </li>
+                <ul>
+                    <li>Roast Paan Set</li>
+                    <li>rice Set</li>
+                    <li>Yellow rice set menu </li>
+                    <li>Lamprais</li>
+                    <li>Yaka fried rice</li>
+                    <li>Hopper set</li>
+                    <li>Pittu Set</li>
+                </ul>
+                
+                </b>
+            </Ol>
+            </h3>
+
+
+                        <!-- BEVERGES menu-->
+        <hr><b>
+        <h2 class="subtopic1" ID="beverages" onclick="openNav4()">BEVERAGES</h2>
+        <h3 class="subtopic11" ID="menu4">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+           
+        <Ol>
+            <li>COFFEE</li>
+            <ul>
+                <li>Espresso </li>
+                <li>DBL Espresso</li>
+                <li>Americano</li>
+                <li>Macchiato</li>
+                <li>Cappuccino</li>
+            
+            </ul>
+            <li>HOT/ COLD COFFEE</li>
+            <ul>
+                <li>Caramel Macchiato </li>
+                <li>Caramel Latte </li>
+                <li>Hazelnut Latte </li>
+                <li>Vanilla Latte </li>
+               
+            </ul>
+            <li>SOFT DRINKS</li>
+            <ul>
+                <li>Coke, Sprite, Ginger Beer or Soda</li>
+                <li>Red Bull </li>
+              
+               
+            </ul></b>
+        </Ol>
+        </h3>
+        <h1 class="subtopic" ID="prising" >PRICING</h1><!-- prising of the shop-->
+        <hr style="width:40%;">
+        <b><p class="blink">10% DISCOUNT </p></b>
+        <br>
+        <table class="table" ><!-- prising table-->
+            <tr>
+                <th>ITEM</th>
+                <th>PRICE</th>
+            </tr>
+            <tr>
+                <td>BREAKFAST</td>
+                <td>UPTO RS.300.00</td>
+            </tr>
+            <tr>
+                <td>LUNCH</td>
+                <td>UPTO RS.300.00</td>
+            </tr>
+            <tr>
+                <td>DINNER</td>
+                <td>UPTO RS.300.00</td>
+            </tr>
+            <tr>
+                <td>BEVERAGES</td>
+                <td>UPTO RS.300.00</td>
+            </tr>
+            
+        </table>
+        <p class="fotter">Copyright &copy  
+            <script>
+                document.write(new Date().getFullYear());
+            </script> 
+             - Developed by <b>Kushitha Lakshitha</b>
+    </body>
+</html>
