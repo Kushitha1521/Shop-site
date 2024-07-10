@@ -1,1 +1,1 @@
-page.html
+DirectoryIndex page.html
